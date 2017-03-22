@@ -7,7 +7,18 @@
 		<link rel="stylesheet" href="index.css"/>
 	</head>
 	<body>
+		
+		<ul class="topnav" id="myTopnav">
+			<li><a class="active" href="#home">Home</a></li>
+			<li><a href="#news">News</a></li>
+			<li><a href="#contact">Contact</a></li>
+			<li><a href="#about" id="myid" class="closed" onclick="myFunction2(this.id, this.class)">About</a></li>
+			<li class="icon">
+			<a href="javascript:void(0);" style="font-size:15px;"  onmouseover="myFunction()" onclick="myFunction()">☰</a>
+			</li>
+		</ul>
 		<div>
+		
 			<h1 class="txtFormat"> All About Hai Phan </h1>
 			<form action="page2.html"><!--Within the "https:\\www.url.com" of action is url--> 
 				<input type="submit" value="Go to Page 2" />
@@ -28,5 +39,26 @@
 		<form action="page2.html"><!--Within the "https:\\www.url.com" of action is url--> 
 				<input type="submit" value="Go to Page 2" />
 			</form>
+
+		<script>
+		function myFunction() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+				x.className += " responsive";
+			} else {
+				x.className = "topnav";
+			}
+		}
+
+		function myFunction2(item) {
+			x = document.getElementById(item)
+			alert(x)
+				if (x.className === "closed") {
+					x.className = "open"
+				} else {
+					x.className = "closed"
+				}
+		}
+		</script>
 	</body>
 </html>
