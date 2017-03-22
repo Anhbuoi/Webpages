@@ -1,0 +1,89 @@
+body{
+	/*background-color:#BEA6A1;*/
+	background-image: url("images/bg_NightSky.jpg");
+}
+
+
+
+div{
+	text-align:center;
+	color: white;
+}
+
+p{
+	text-indent:50px;
+	text-align:left;
+	font-size:24px;
+}
+
+img{
+	border: 2px solid white;
+}
+
+table, td{
+	text-indent: 10px;
+	border: 2px solid white;
+	border-color:white;
+	border-collapse: collapse;
+	text-align: left;
+	border-spacing: 0;
+	
+}
+
+.t-specs {
+    font: 300 18px / 0.9em 'ff-zwo-web', Arial, sans-serif;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.t-specs thead th {
+    background-color: #003264;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.t-specs tr.t-sec td {
+    background-color: #7d8695;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.t-specs td:first-of-type {
+    background-color: #ddd;
+	color:black;
+    width: 40%;
+}
+
+.t-specs td, .t-specs th {
+    background-color: #eee;
+    padding: 6px 10px 4px;
+    width: 60%;
+	color: black;
+}
+
+
+form{
+	text-align:center;
+}
+
+.txtFormat{
+	text-decoration:underline;
+}
+
+.spec{
+	text-align:center;
+	text-decoration:underline;
+	
+}
+
+.tab{
+
+	text-align: center;
+}
+
+.logo-wrapper {
+    background: #272b3b;
+}
+
+
+
