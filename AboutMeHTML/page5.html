@@ -13,9 +13,17 @@
 	<body>
 		<div>
 			<h1 class="txtFormat"> Career Goals </h1>
-			<form action="index.html"><!--Within the "https:\\www.url.com" of action is url--> 
-				<input type="submit" value="Go to Homepage" /><br />
-			</form>
+			<ul class="topnav" id="myTopnav">
+				<li><a class="active" href="index.html">Home</a></li>
+				<li><a href="page2.html">Page2</a></li>
+				<li><a href="page3.html">Page3</a></li>
+				<li><a href="page4.html">Page4</a></li>
+				<li><a href="page5.html">Page5</a></li>
+				<li><a href="#about" id="myid" class="closed" onclick="myFunction2(this.id, this.class)">About</a></li>
+				<li class="icon">
+					<a href="javascript:void(0);" style="font-size:15px;"  onmouseover="myFunction()" onclick="myFunction()">☰</a>
+				</li>
+			</ul>
 			
 			<img src="images/computerScience.jpg"/>
 			
@@ -32,8 +40,6 @@
 				</p>
 				
 		</div>
-		<form action="index.html"><!--Within the "https:\\www.url.com" of action is url--> 
-				<input type="submit" value="Go to Homepage" />
-			</form>
+
 	</body>
 </html>

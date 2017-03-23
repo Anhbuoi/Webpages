@@ -95,7 +95,7 @@ ul.topnav li {float: left;}
 
 ul.topnav li a {
 	display: inline-block;
-	color: #f2f2f2;
+	color: #b2b2b2;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
@@ -103,7 +103,10 @@ ul.topnav li a {
 	font-size: 17px;
 }
 
-ul.topnav li a:hover {background-color: #555;}
+ul.topnav li a:hover {
+	background-color: #ffffff;
+	color:black;
+}
 
 ul.topnav li.icon {display: none;}
 

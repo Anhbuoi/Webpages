@@ -12,23 +12,21 @@
 		<link rel="stylesheet" href="index.css"/>
 	</head>
 	<body>
-	
-		
-		<ul class="topnav" id="myTopnav">
-			<li><a class="active" href="#home">Home</a></li>
-			<li><a href="#news">News</a></li>
-			<li><a href="#contact">Contact</a></li>
-			<li><a href="#about" id="myid" class="closed" onclick="myFunction2(this.id, this.class)">About</a></li>
-			<li class="icon">
-			<a href="javascript:void(0);" style="font-size:15px;"  onmouseover="myFunction()" onclick="myFunction()">☰</a>
-			</li>
-		</ul>
 		<div>
 		
 			<h1 class="txtFormat"> All About Hai Phan </h1>
-			<form action="page2.html"><!--Within the "https:\\www.url.com" of action is url--> 
-				<input type="submit" value="Go to Page 2" />
-			</form>
+				
+			<ul class="topnav" id="myTopnav">
+				<li><a class="active" href="index.html">Home</a></li>
+				<li><a href="page2.html">Page2</a></li>
+				<li><a href="page3.html">Page3</a></li>
+				<li><a href="page4.html">Page4</a></li>
+				<li><a href="page5.html">Page5</a></li>
+				<li><a href="#about" id="myid" class="closed" onclick="myFunction2(this.id, this.class)">About</a></li>
+				<li class="icon">
+					<a href="javascript:void(0);" style="font-size:15px;"  onmouseover="myFunction()" onclick="myFunction()"><span>☰</span></a>
+				</li>
+			</ul>
 			
 			<img src="images/walt.jpg"/>
 			
@@ -42,9 +40,6 @@
 				
 				</p>
 		</div>
-		<form action="page2.html"><!--Within the "https:\\www.url.com" of action is url--> 
-				<input type="submit" value="Go to Page 2" />
-			</form>
 
 		<script>
 		function myFunction() {
