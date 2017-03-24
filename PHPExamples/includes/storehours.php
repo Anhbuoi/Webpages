@@ -18,7 +18,7 @@
         }
         td {
             padding: 2px 8px;
-            border: 1px solid #ccc;
+            border: 4px solid #ccc;
         }
         </style>
     </head>
