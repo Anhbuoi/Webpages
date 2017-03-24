@@ -13,19 +13,14 @@
 					
 					<div class="column three last">
 						<strong>Hours</strong>
-						<em>Monday - Thursday</em><br>
-						7:00AM - 7:00PM<br><br>
 						
-						<em>Friday - Saturday</em><br>
-						6:00AM - 7:00PM<br><br>
-						
-						<em>Sunday</em><br>
-						6:00AM - 4:00PM<br><br>
-						
+						<?php include('includes/storehours.php')?>
 					</div><!--column-->
 					
 				</div><!--footer-->
 			
+				<small>&copy;<?php echo date('Y');?> <?php echo $companyName;?></small>
+				
 			</div><!--content-->
 			
 		</div><!--wrapper-->

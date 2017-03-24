@@ -1,3 +1,1 @@
-This is the link for my live golf booking webpage.
-
-golfbooking.net16.net
+This is the link to get to the webpage: golfbooking.net16.net

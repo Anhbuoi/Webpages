@@ -13,15 +13,16 @@
 	<body>
 		<div>
 			<h1 class="txtFormat"> Dream Car </h1>
+			
 			<ul class="topnav" id="myTopnav">
 				<li><a class="active" href="index.html">Home</a></li>
-				<li><a href="page2.html">Page2</a></li>
-				<li><a href="page3.html">Page3</a></li>
-				<li><a href="page4.html">Page4</a></li>
-				<li><a href="page5.html">Page5</a></li>
-				<li><a href="#about" id="myid" class="closed" onclick="myFunction2(this.id, this.class)">About</a></li>
+				<li><a href="page2.html">Skills & Hobbies</a></li>
+				<li><a href="page3.html">Dream Car</a></li>
+				<li><a href="page4.html">Dream Job</a></li>
+				<li><a href="page5.html">Career Goals</a></li>
+				<li><a href="#contact" id="myid" class="closed" onclick="myFunction2(this.id, this.class)">Contact</a></li>
 				<li class="icon">
-					<a href="javascript:void(0);" style="font-size:15px;"  onmouseover="myFunction()" onclick="myFunction()">☰</a>
+					<a href="javascript:void(0);" style="font-size:15px;"  onmouseover="myFunction()" onclick="myFunction()"><span>☰</span></a>
 				</li>
 			</ul>
 	
@@ -116,7 +117,26 @@
 								
 			
 		</div>
-		<ul class="topnav" id="myTopnav">
+		<script>
+			function myFunction() {
+				var x = document.getElementById("myTopnav");
+				if (x.className === "topnav") {
+					x.className += " responsive";
+				} else {
+					x.className = "topnav";
+				}
+			}
+
+			function myFunction2(item) {
+				x = document.getElementById(item)
+				alert(x)
+					if (x.className === "closed") {
+						x.className = "open"
+					} else {
+						x.className = "closed"
+					}
+			}
+		</script>
 
 	</body>
 </html>
